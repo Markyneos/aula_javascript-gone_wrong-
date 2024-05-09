@@ -1,0 +1,27 @@
+body {
+    background-color:bisque;
+    color: brown;
+}
+article h1 {
+    text-align: center;
+}
+main button {
+    border-radius: 20px;
+    background-color: aquamarine;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 20px;
+}
+main {
+    display: block;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+@keyframes fadeIn{
+    
+}
