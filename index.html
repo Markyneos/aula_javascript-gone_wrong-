@@ -9,14 +9,19 @@
 </head>
 
 <body>
+    <menu>
+        <button onclick="limparConsole()">Limpar "console"</button>
+    </menu>
     <article>
     <h1>Conversor de temperatura (C° para F°)</h1>
     </article>
     <main>
         <p>Insira a temperatura em Celsius</p>
-        <input type="number">
+        <input type="number" id="temperatura" placeholder="Temperatura">
         <button onclick="converter_Temperatura()">Converter temperatura</button>
+        <br>
+        <p id="resultado"></p>
     </main>
-    <script src="index.js"></script>
+    <script src="/aula_javascript-gone_wrong--main/index.js"></script>
 </body>
 </html>
